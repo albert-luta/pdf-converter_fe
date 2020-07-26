@@ -32,8 +32,6 @@ export const theme = {
 export const GlobalStyle = createGlobalStyle`
 	${reset};
 
-	@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 	*,
 	*::before,
 	*::after {
