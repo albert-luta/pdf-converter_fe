@@ -2,6 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle, theme } from './createTheme.css';
 import StoreProvider from './store';
+import MainPage from './pages/Main';
 
 const App = () => {
 	return (
@@ -9,7 +10,7 @@ const App = () => {
 			<ThemeProvider theme={theme}>
 				<GlobalStyle />
 
-				{null?.ceva ?? <h1>App</h1>}
+				<MainPage />
 			</ThemeProvider>
 		</StoreProvider>
 	);

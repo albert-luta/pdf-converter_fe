@@ -12,7 +12,7 @@ export const theme = {
 		gray1: '#414141',
 		gray2: '#636363',
 		gray3: '#828282',
-		gray4: '#f7f7f7'
+		gray4: '#acacac'
 	},
 	breakpoints: {
 		xs: '360px',
